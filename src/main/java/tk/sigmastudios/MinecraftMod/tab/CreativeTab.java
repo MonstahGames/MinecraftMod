@@ -15,6 +15,6 @@ public class CreativeTab extends CreativeTabs
 
     @Override
     public Item getTabIconItem() {
-        return Items.COOKIE;
+        return Items.REDSTONE;
     }
 }

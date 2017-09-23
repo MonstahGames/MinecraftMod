@@ -2,14 +2,14 @@
 {
   "modid": "monstahmod",
   "name": "MonstahTest Mod",
-  "description": "First Mod",
+  "description": "My First Mod for testing things out.",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "http://sigmastudios.tk/wordpress",
   "updateUrl": "",
   "authorList": ["Monstahhh"],
-  "credits": "The Forge and FML guys, for making forge and FML.",
-  "logoFile": "",
+  "credits": "Forge!",
+  "logoFile": "shibe.jpg",
   "screenshots": [],
   "dependencies": []
 }
