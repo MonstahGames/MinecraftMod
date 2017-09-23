@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "monstahmod",
+  "name": "MonstahTest Mod",
+  "description": "First Mod",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "",
+  "url": "http://sigmastudios.tk/wordpress",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["Monstahhh"],
+  "credits": "The Forge and FML guys, for making forge and FML.",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
