@@ -1,7 +1,7 @@
 [
 {
   "modid": "monstahmod",
-  "name": "MonstahTest Mod",
+  "name": "Monstah Mod",
   "description": "My First Mod for testing things out.",
   "version": "${version}",
   "mcversion": "${mcversion}",
