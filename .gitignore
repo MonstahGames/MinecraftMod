@@ -13,6 +13,12 @@ out
 *.iml
 .idea
 
+#User Forge Stuff
+options.txt
+servers.dat
+usercache.json
+usernamecache.json
+
 # gradle
 build
 .gradle
