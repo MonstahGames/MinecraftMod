@@ -1,0 +1,9 @@
+#Blocks
+tile.jeff_ore.name=Jeff Ore
+
+#Items
+item.expsword.name=Explosive Sword
+item.jeff_sword.name=Jeff Sword
+
+#Misc
+itemGroup.blockmod_tab=BlockMod
