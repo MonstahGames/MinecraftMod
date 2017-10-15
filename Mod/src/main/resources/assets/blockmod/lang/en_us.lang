@@ -4,6 +4,7 @@ tile.jeff_ore.name=Jeff Ore
 #Items
 item.expsword.name=Explosive Sword
 item.jeff_sword.name=Jeff Sword
+item.jeff_ingot.name=Jeff Ingor
 
 #Food
 item.cheese_cracker.name=Cheese Cracker

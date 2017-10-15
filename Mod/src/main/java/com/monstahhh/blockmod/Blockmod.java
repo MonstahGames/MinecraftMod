@@ -52,7 +52,7 @@ public class Blockmod
         public static void registerItem (ModelRegistryEvent event)
         {
             ModItems.registerModels();
-            ModBlocks.registerItemModels();
+            //ModBlocks.registerItemModels();
         }
     }
 
@@ -68,7 +68,6 @@ public class Blockmod
     public void init (FMLInitializationEvent event)
     {
         proxy.init(event);
-        ModCrafting.register();
     }
     @EventHandler
     public  void postInit(FMLPostInitializationEvent event)

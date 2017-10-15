@@ -5,6 +5,8 @@ import net.minecraft.item.EnumRarity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemPickaxe;
 import net.minecraft.item.ItemStack;
+import net.minecraftforge.common.util.EnumHelper;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class JeffPickaxe extends ItemPickaxe
 {
@@ -24,5 +26,9 @@ public class JeffPickaxe extends ItemPickaxe
     public void registerItemModel()
     {
         Blockmod.proxy.registerItemRenderer(this, 0, "jeff_pickaxe");
+    }
+    public static void register ()
+    {
+
     }
 }

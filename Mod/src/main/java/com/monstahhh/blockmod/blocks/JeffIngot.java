@@ -7,28 +7,22 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 
-public class JeffIngot extends Block
+public class JeffIngot extends Item
 {
-    protected String name;
-    public JeffIngot(Material material, String name)
+    public JeffIngot(String name)
     {
-        super(material);
-        this.name = name;
+        super();
         setUnlocalizedName(name);
         setRegistryName(name);
+        setCreativeTab(Blockmod.tab);
     }
-    public void registerItemModel(Item itemBlock)
+
+    public void registerItemModel()
     {
-        Blockmod.proxy.registerItemRenderer(itemBlock, 0, name);
+        Blockmod.proxy.registerItemRenderer(this, 0, "jeff_ingot");
     }
-    public Item createItemBlock()
-    {
-        return new ItemBlock(this).setRegistryName(getRegistryName());
-    }
-    @Override
-    public JeffIngot setCreativeTab(CreativeTabs tab)
-    {
-        super.setCreativeTab(tab);
-        return this;
-    }
+    //public Item createItemBlock()
+    //{
+    //    return new ItemBlock(this).setRegistryName(getRegistryName());
+    //}
 }
