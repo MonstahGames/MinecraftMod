@@ -1,11 +1,7 @@
 package com.monstahhh.blockmod.blocks;
 
 import com.monstahhh.blockmod.Blockmod;
-import net.minecraft.block.Block;
-import net.minecraft.block.material.Material;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemBlock;
 
 public class JeffIngot extends Item
 {
