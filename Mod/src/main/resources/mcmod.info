@@ -2,7 +2,7 @@
 {
   "modid": "blockmod",
   "name": "Block Mod",
-  "description": "Example placeholder mod.",
+  "description": "Testing Mod",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",

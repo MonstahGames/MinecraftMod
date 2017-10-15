@@ -5,5 +5,10 @@ tile.jeff_ore.name=Jeff Ore
 item.expsword.name=Explosive Sword
 item.jeff_sword.name=Jeff Sword
 
+#Food
+item.cheese_cracker.name=Cheese Cracker
+item.dank_cheese.name=Dank Cheese
+item.cheese_cookie.name=Cheese Cookie
+
 #Misc
 itemGroup.blockmod_tab=BlockMod
